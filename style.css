@@ -1,0 +1,93 @@
+
+* {
+    font-family: Avenir, Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(#50baea, #81819e);
+    height: 100vh;
+    color: white;
+}
+
+header {
+    text-align: center;
+    /* background: #59595c; */
+    padding: 20px;
+    color: white;
+}
+
+.bio-picture {
+    border-radius: 50%;
+    filter: drop-shadow(10px 10px 20px rgba(0,0,0, .5));
+}
+
+h2 {
+    text-align: center;
+}
+
+button {
+    background-color: white;
+    padding: 20px;
+    font-size: 1em;
+    color: #50baea;
+    margin-top: 15px;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+button:hover {
+    color: white;
+    background-color: #50baea;
+    transition: all .3s;
+}
+
+/* Home Page */
+
+
+.bio {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.bio p {
+    text-align: left;
+}
+
+/* End of home page */
+
+/* Start of Contact page */
+
+.contact-form-section {
+    text-align: center;
+}
+
+.contact-form {
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-form input {
+    margin: 10px 5px; 
+    width: 50%;
+    padding: 10px 20px;
+}
+
+.contact-form #submit {
+    background-color: white;
+    padding: 20px;
+    font-size: 1em;
+    color: #50baea;
+    margin-top: 15px;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+#submit:hover {
+    color: white;
+    background-color: #50baea;
+    transition: all .3s;
+}
+
+/* End of Contact Page */
