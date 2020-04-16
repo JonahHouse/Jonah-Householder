@@ -11,13 +11,16 @@ html {
     background: linear-gradient(#50baea, #81819e);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='50baea',  
         endColorstr='#81819e');
-    
+    margin: 0;
+    padding: 0;
 }
 
 body {
     background-image: linear-gradient(#50baea, #81819e);
     color: white;
     min-height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 a {
